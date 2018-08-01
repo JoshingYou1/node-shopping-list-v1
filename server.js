@@ -27,9 +27,10 @@ ShoppingList.create('peppers', 4);
 
 const {Recipes} = require("./models");
 
-Recipes.create("chocolate milk", ["cocoa", "milk", "sugar"]);
-Recipes.create("pizza", ["tomato sauce", "pizza dough", "cheese"]);
-Recipes.create("cheeseburger", ["ground beef", "cheese", "hamburger bun"]);
+Recipes.create("chocolate milk", ["1 tsp cocoa", " 2 cups milk", "1 tsp sugar"]);
+Recipes.create("pizza", ["3/4 cup pizza sauce", "1/4 ounce dry yeast", "1 cup water", "1 tsp sugar", "3 cups bread flour", 
+  "1/2 tsp salt", "1 tbsp olive oil", "2 cups mozzarella cheese"]);
+Recipes.create("cheeseburger", ["1/2 lb ground beef", "1 slice cheddar cheese", "hamburger bun"]);
 
 // when the root of this route is called with GET, return
 // all current ShoppingList items by calling `ShoppingList.get()`
